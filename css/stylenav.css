@@ -1,0 +1,27 @@
+.navigation{
+    display:flex;
+    position: sticky;
+    top:0;
+    width:100%;
+    margin:auto;
+    padding:20px 0;/* 20- top and bottom 0-left and right*/
+    align-items:center;
+    justify-content:flex-end;
+    background-color:rgb(153, 127, 255);
+    list-style:none;
+    flex-wrap:wrap;
+
+
+    }
+    
+
+    .navigation a{
+  text-decoration:none;
+     padding:20px;
+    font-weight:bold;
+
+    }
+
+a:hover{
+    background-color:rgb(198, 76, 217);
+}
